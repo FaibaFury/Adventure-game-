@@ -22,7 +22,7 @@ while True:
         elif uinput.lower()=="love":
             print("ohhhhh....i dont get it!WHY LOVE????\n")
         for enemy in enemies:
-            print(f"{enemy} has arrived! Good luck in your fight!")
+            print(f"{enemy} has arrived!")
         ainput=input("Tap 'enter' to start the WARRRRR!")
         while True:
                 print("Goblins are coming to your way!")
@@ -119,3 +119,4 @@ while True:
 
 
                 
+

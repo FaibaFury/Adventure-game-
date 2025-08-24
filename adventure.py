@@ -20,7 +20,7 @@ while True:
         elif uinput.lower()=="sword":
             print("hehe, zelda?\n")
         elif uinput.lower()=="love":
-            print("ohhhhh....i dont get it!WHY LOVE????\n")
+            print("ohhhhh....i dont get it! WHY LOVE????\n")
         for enemy in enemies:
             print(f"{enemy} has arrived!")
         ainput=input("Tap 'enter' to start the WARRRRR!")
@@ -51,7 +51,7 @@ while True:
                     print("and sadly turn into ashes!")
                     zinput=input("GAME OVER! try again? (y/n)")
                     if zinput.lower()=="y":
-                        print("but you realise that you had only one life!so this choices meant nothing!")
+                        print("but you realise that you had only one life! so this choice meant nothing!")
                         time.sleep(2)
                         exit()
                     else:
@@ -80,9 +80,9 @@ while True:
                     print("and you saved the world and yourself! but at what cost? YOUR EYES!")
                     print("mission completed? man! i dont even think you can see this!")
                     print("TRY AGAIN!")
-                    zinput=input("GAME OVER! try again? (y/n)")
+                    zinput=input("GAME OVER! try again? (y/n)\n")
                     if zinput.lower()=="y":
-                        print("but you realise that you had only one life!so this choices meant nothing!")
+                        print("but you realise that you had only one life! so this choice meant nothing!")
                         time.sleep(2)
                         exit()
                     else:
@@ -104,11 +104,11 @@ while True:
                     input()
                     print("...but it looks like...")
                     input()
-                    print("you are dead!... it seems LOVE doesnt work like those fictions you have read so many times!")
+                    print("  you are DEAD!!!... it seems LOVE doesnt work like those fictions you have read so many times!")
                     input()
-                    zinput=input("GAME OVER! try again? (y/n)")
+                    zinput=input("GAME OVER! try again? (y/n)\n")
                     if zinput.lower()=="y":
-                        print("but you realise that you had only one life!so this choices meant nothing!")
+                        print("but you realise that you had only one life! so this choice meant nothing!")
                         time.sleep(2)
                         exit()
                     else:
@@ -119,4 +119,5 @@ while True:
 
 
                 
+
 
